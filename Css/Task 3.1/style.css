@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1px;
+}
+
+.menu-link 
+{
+    text-decoration: none;
+    color: black;
+    background-color: #bbe4e9;
+    padding: 12px 166px;
+    transition: all 0.5s;
+}
+.menu-link:hover
+{
+    background-color: #79c2d0;
+    color:black;
+    text-decoration: underline;
+}

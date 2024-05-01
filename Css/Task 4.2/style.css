@@ -1,0 +1,66 @@
+.container
+{
+    
+    background-color: #25BCB9;
+ 
+}
+
+
+.css-table
+{
+    background-color: #293846;
+    color: white;
+    width: 500px;
+    text-align: left;
+    margin-left: 700px;
+    margin-top: 250px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: scroll;
+
+}
+
+.data
+{
+    padding: 12px 12px 18px 10px;
+    text-align: left;
+    border: 1px solid rgb(41, 41, 41)
+
+
+    
+}
+
+
+
+
+.data-year
+{
+    padding: 12px 18px;
+    text-align: center;
+    color: #d9e5e7;
+}
+.head
+{
+    
+    background-color: #1e2933;
+    padding: 12px 12px 18px 10px;
+    text-align: left;
+    border: 1px solid rgb(41, 41, 41)
+}
+.row.row:nth-of-type(even)
+{
+    background-color: #1e2933;
+    
+
+}
+
+.select
+{
+    background-color:#229492 ;
+    color: rgb(241, 232, 232);
+    padding: 4px 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+

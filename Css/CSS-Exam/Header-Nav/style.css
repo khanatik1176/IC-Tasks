@@ -1,0 +1,144 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.header-list
+{
+    display: flex;
+    padding: 22px 0px;
+    background-color: red;
+    text-align: center;
+}
+
+.header-items
+{
+    background-color: red;
+    position: relative;
+    
+    
+}
+
+.header-link:hover
+{
+    background-color: black; 
+}
+
+.header-link
+{
+    background-color: red;
+    text-decoration: none;
+    transition: all  0.3s;
+    padding: 22px;
+}
+
+.dropdown-area
+{
+    display: none;
+    width: 130px;
+    text-align: left;
+}
+
+
+.drop-drop-area
+{
+    display: none;
+    width: 120px;
+}
+
+
+.header-items:hover .dropdown-area{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 220%;
+    background-color: red;
+
+}
+
+.drops:hover .drop-drop-area{
+    display: block;
+    position: absolute;
+    left: 130px;
+    top: 2%;
+    background-color: red;
+
+}
+.drop-items
+{
+    background-color: red;
+    
+  
+}
+
+.drop-drop-items
+{
+    background-color: red;
+}
+
+
+.drops
+{
+    background-color: red;
+    display: block;
+    position: relative;
+    text-align: left;
+    
+
+}
+
+.drops-drops
+{
+    margin: 0;
+    background-color: red;
+    display: block;
+    text-align: left;
+}
+
+.drop-drop-link
+{
+    background-color: red;
+    padding-left: 15px;
+}
+
+.drop-link
+{
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    transition: all  0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.drop-drop-link
+{
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    transition: all  0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.drop-link:hover
+{
+    background-color: black;
+
+    
+}
+
+.drop-drop-link:hover
+{
+    background-color: black;
+
+}
+

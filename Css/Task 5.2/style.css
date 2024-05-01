@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.Container
+{
+    background-color:  #0D1A2D;
+    height: 100vh;
+}
+
+.container-items
+{    
+    position: relative;
+    top: 250px;
+    left: 750px;
+    background-color: #15273F;
+    height: 480px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid #0D1A2D;
+    padding: 6px 6px;
+
+}
+
+.img
+{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.label
+{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    color: white;
+    padding-left: 17px;
+}
+
+.text
+{
+    font-family: 'Outfit', sans-serif;
+    color:#768392  ;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    padding-left: 17px;
+}
+
+.icon-1
+{
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    padding-left: 17px;
+}
+
+.ethereum-text
+{
+    font-family: 'Outfit', sans-serif;
+    color: #18C9C6;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top:53px;
+    padding-left: 5px;
+   
+}
+.clock
+{
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    left: 70px;
+}
+
+.clock-text
+{
+    font-family: 'Outfit', sans-serif;
+    color: #768392 ;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: 53px;
+    left: 75px;
+     
+}
+
+.divider
+{
+    position: relative;
+    width: 250px;
+    margin-left: 20px;
+    top: 70px;
+    border-color: #67727f3d;
+
+        
+}
+
+.designer-img
+{
+    width: 280px;
+    height: 100px;
+}
+
+.designer-image
+{
+    position: relative;
+    width: 30px;
+    top: 85px;
+    left: 25px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.designer-p
+{
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    color: #6b7b8d;
+    font-weight: bold;
+    top: 55px;
+    left: 70px;
+}
+
+.designer-name
+{
+    position: relative;
+    color: #6b7b8d;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(226, 226, 226);
+    top: 35px;
+    left: 154px;
+}

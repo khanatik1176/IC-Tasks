@@ -1,0 +1,640 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.header-area
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 1270px;
+    background-color: #fff;
+}
+
+.header-menu-list
+{
+    display: flex;
+    gap: 30px;
+}
+
+.header-menu-list-area
+{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    right: 400px;
+}
+
+.logo
+{
+    padding-top: 40px;
+    padding-left: 180px;
+}
+
+.list-items
+{
+    font-family:'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    text-transform: uppercase;
+}
+
+.list-items:hover
+{
+    color:hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+.btn-link
+{
+    text-decoration: none;
+    color: #FFF;
+    padding: 12px 22px;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.btn-link:hover
+{
+    text-decoration: none;
+    color: hsl(0, 94%, 66%);
+    padding: 12px 22px;
+    background-color: #FFF;
+    border: 1px solid hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.hero-area
+{
+    width: 100%;
+    display: flex;
+    gap: 600px;
+    height: 600px;
+}
+
+.hero-text
+{  
+    padding-left: 180px;
+    padding-top: 150px;
+}
+
+.hero-title
+{
+    max-width: 1800px;
+    font-family:'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.hero-image
+{
+    width: 600px;
+    position: relative;
+    top: 70px;
+    right: 150px;
+}
+
+.hero-para
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.btn-area
+{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-blue
+{
+    padding: 12px 20px;
+    background-color: hsl(231, 69%, 60%);
+    color: #FFF;
+    border-radius: 5px;
+    
+}
+
+.btn-blue:hover
+{
+    text-decoration: none;
+    color:  hsl(231, 69%, 60%);
+    padding: 12px 22px;
+    background-color: #FFF;
+    border: 1px solid  hsl(231, 69%, 60%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.white-btn
+{
+    padding: 12px 20px;
+    background-color: #e8eeee;
+    color: black;
+    border-radius: 5px;
+    box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+    -webkit-box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+    -moz-box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+}
+
+.white-btn:hover
+{
+    text-decoration: none;
+    color:  black;
+    padding: 12px 22px;
+    background-color: #FFF;
+    border: 1px solid  black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features-area
+{
+    width: 100%;
+    height:700px;
+
+}
+
+.features-title
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.features-para
+{
+    max-width: 500px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    left: 680px;
+}
+
+.feature-parts
+{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.para-head
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.para-head:hover
+{
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+.feature-1-area
+{
+    display: flex;
+    padding-top: 50px;
+    gap: 580px;
+}
+
+.feature-img
+{
+    width: 500px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+
+.feature-1-text-area
+{
+    position: relative;
+    top: 80px;
+}
+
+.feature-1-title
+{
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.feature-1-para
+{
+    max-width: 490px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.more-info
+{
+    padding: 12px 16px;
+    background-color:hsl(231, 69%, 60%);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.ext-area
+{
+    width: 100%;
+    height: 660px;
+}
+
+.ext-title
+{
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.ext-para
+{
+    max-width: 540px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    left: 630px;
+}
+
+.ext-browser-area
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.chrome
+{
+    width: 80px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 80px;
+    padding-top: 10px
+}
+
+.firefox
+{
+    width: 80px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 80px;
+    padding-top: 10px
+}
+
+.opera
+{
+    width: 80px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 80px;
+    padding-top: 10px
+}
+
+.add-bwsr
+{
+    font-family:'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+.details
+{
+    font-family:'Rubik', sans-serif;
+    font-size: 12px;
+    color:hsl(229, 8%, 60%);
+    position: relative;
+    left: 60px;
+}
+
+.gap
+{
+    display: block;
+    width: 250px;
+    position: relative;
+    left: 10px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+
+
+}
+
+.browser-links
+{
+    padding: 12px 25px;
+    background-color: hsl(231, 69%, 60%);
+    color: #FFF;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+}
+
+.browser-links:hover
+{
+    text-decoration: none;
+    color:  hsl(231, 69%, 60%);
+    padding: 12px 22px;
+    background-color: #FFF;
+    border: 1px solid  hsl(231, 69%, 60%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single-browser
+{
+    box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+    -webkit-box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+    -moz-box-shadow: -4px 8px 16px -5px rgba(0,0,0,0.28);
+    height: 270px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.cr
+{
+    position: relative;
+    bottom: 60px;
+    left: 370px;
+}
+
+.fr
+{
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+}
+
+.or
+{
+    position: relative;
+    top: 30px;
+    right: 250px;
+}
+
+.ask-area
+{
+    width: 100%;
+    height: 600px;
+
+}
+
+.ask-title
+{
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.ask-para
+{
+    max-width: 540px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    left: 630px;
+}
+
+.demo-table
+{
+    position: relative;
+    left: 660px;
+    top: 40px;
+}
+
+.demo-datas
+{
+    font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.demo-data
+{
+    font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 180px;
+    padding-left: 10px;
+}
+
+.demo-datas:hover
+{
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+.demo-data:hover
+{
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+.icons
+{
+    position: relative;
+    right: 30px;
+    color: hsl(231, 69%, 60%);
+}
+
+.more-info-btn
+{
+    padding: 12px;
+    color: #FFF;
+    background-color:hsl(231, 69%, 60%);
+    border-radius: 5px;
+    position: relative;
+    left: 870px;
+    top: 90px;
+}
+
+.contact-area
+{
+    height: 300px;
+    background-color:hsl(231, 69%, 60%);
+}
+
+.contact-para
+{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-heading
+{   
+    display: inline-block;
+    max-width: 300px;
+    padding-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    left: 770px;
+    text-align: center;
+    
+}
+
+.contact-form
+{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 770px;
+    top: 20px;
+}
+
+.cemail
+{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.cbtn
+{
+    text-decoration: none;
+    font-family:'Rubik', sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: hsl(0, 94%, 66%);
+    color: #FFF;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.cbtn:hover
+{
+    text-decoration: none;
+    color: hsl(0, 94%, 66%);
+    padding: 8px 16px;
+    background-color: #FFF;
+    border: 1px solid hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.cemail::placeholder
+{
+    font-family:'Rubik', sans-serif;
+    color:lightgray;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.footer-area
+{
+    width: 100%;
+    height: 100px;
+    background-color: hsl(229, 31%, 21%);
+    display: flex;
+    gap: 1300px;
+    align-items: center;
+}
+
+.footer-sub-area
+{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-list
+{
+    display: flex;
+    color: rgb(204, 203, 203);
+    text-transform: uppercase;
+    font-family:'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    gap: 40px;
+}
+
+.socials
+{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 220px;
+}
+
+.footer-logo
+{
+    padding-left: 150px;
+    color: #FFF;
+}
+
+.footer-list-items:hover
+{
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+.fb:hover
+{
+    background-color:hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+.twitter:hover
+{
+    background-color:hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+@media screen and (min-width:0px) and (max-width:375px)
+{
+
+}

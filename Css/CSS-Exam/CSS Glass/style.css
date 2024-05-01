@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.main-container
+{
+    height: 100vh;
+    background-image: url(./Assets/night-6761907_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.former
+{
+    height: 500px;
+    width: 350px;
+    background: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    top: 500px;
+    left: 900px;
+    backdrop-filter: blur(5px);
+    padding: 50px 35px;
+
+}
+
+.title
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.email
+{
+    border-style: none;
+    height: 50px;
+    width: 280px;
+    background: rgba(255,255,255,0.13);
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+}
+
+
+.email::placeholder
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: lightgray;
+    padding-left: 30px;
+}
+
+.user-icon
+{
+    display: inline-block;
+    width: 10px;
+    position: absolute;
+    top: 115px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.password
+{
+    position: relative;
+    border-style: none;
+    height: 50px;
+    width: 280px;
+    background: rgba(255,255,255,0.13);
+    border-radius: 5px;
+    top: 20px;
+    backdrop-filter: blur(2px);
+}
+
+.password::placeholder
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: lightgray;
+    padding-left: 30px;
+}
+
+.password-icon
+{
+    display: inline-block;
+    width: 10px;
+    position: absolute;
+    top: 180px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.btn
+{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    padding: 15px 115px;
+    background: rgba(255,255,255,0.13);
+    border-radius: 7px;
+    backdrop-filter: blur(2px);
+    color: #fff;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+
+.or
+{
+    position: relative;
+    top: 70px;
+    left: 130px;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socials
+{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+.facebook
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    background: rgba(255,255,255,0.13);
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.google
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    background: rgba(255,255,255,0.13);
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.facebook-p
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.google-p
+{
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}

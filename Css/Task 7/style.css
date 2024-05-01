@@ -1,0 +1,87 @@
+*
+{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.containter
+{
+    background-color: red;
+    height: 300vh;
+}
+
+.container-items
+{
+    height: 300vh;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+    background-image: url(./Assets/Group.png), url(./Assets/bottom.png), url(./Assets/bottom2.png),url(./Assets/top-r.png),url(./Assets/bottom-r.png),url(./Assets/bottom6.png),url(./Assets/bottom4.png),url(./Assets/bottom6.png),url(./Assets/bottom3.png),url(./Assets/Figset.png),
+    url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png),url(./Assets/Vector.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 25px,60px,80px,25px,40px,70px,50px,70px,70px,600px,5px,5px,5px,5px,5px,5px,5px,5px;
+    background-position: 0px 12px, 0px 480px, 560px 480px,1825px 125px,1810px 380px,570px 510px,515px 510px,570px 550px,495px 550px, 1255px 50px,900px 100px,910px 100px, 920px 100px, 930px 100px,905px 110px, 915px 110px, 925px 110px, 915px 120px ;
+    background-attachment: scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll,scroll;
+}
+
+.hero-text
+{
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+.subhead
+{
+    display: inline-block;
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2F2B71;
+    bottom: 160px;
+    left: 60px;
+}
+
+.tag
+{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: #5F596E;
+    position: relative;
+    top: 30px;
+    right: 170px;
+
+}
+
+.sub-tag
+{
+    display: inline-block;
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    top: 120px;
+    right: 725px;
+}
+
+.apply
+{
+    display: inline-block;
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 12px 18px;
+    background-color: #54b8ff;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    top: 170px;
+    right:1130px ;
+}
+
+
+
+
+

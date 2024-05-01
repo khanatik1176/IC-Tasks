@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-container
+{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(82deg, rgba(34,193,195,1) 11%, rgba(138,81,240,1) 60%);
+}
+
+.css-form
+{
+    max-width: 550px;
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+
+}
+
+.Header
+{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 95px;
+    font-size: 24px;
+    background: rgb(34,193,195);
+    background: linear-gradient(82deg, rgba(34,193,195,1) 11%, rgba(138,81,240,1) 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.FirstName
+{
+    display:inline-block;
+    position: relative;
+    border-style: none;
+    border-bottom: 1px solid lightgray;
+    width: 200px;
+    border-color: gray;
+    background-color: transparent;
+    left: 75px;
+    bottom: 5px;
+}
+.FN-lbl
+{
+    display: inline-block;
+    position: absolute;
+    left: 76px;
+    bottom: 6px;
+
+}
+
+.form-group-1
+{
+    display: inline-block;
+    position: relative;
+    top: 85px;
+    right: 55px;
+    border-style: none;
+    transition: all;
+   
+}
+
+.FN-lbl:hover
+{
+    
+    bottom: 20px;
+}
+
+
+.LN-lbl
+{
+    display: flex;
+    position: relative;
+    left: 86px;
+
+}
+.LastName
+{
+    border-style: none;
+    border-bottom: 1px solid lightgray;
+    width: 200px;
+}
+.form-group-2
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 65px;
+    left: 180px;
+  
+}
+.form-group-3
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 13vh;
+    left: 14px;
+  
+}
+
+.form-group-4
+{
+   
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15vh;
+    left: 10px;
+  
+}
+
+.form-group-5
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 18vh;
+    left: 10px;
+  
+}
+
+.form-btn
+{
+
+  
+}

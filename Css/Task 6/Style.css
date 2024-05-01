@@ -1,0 +1,60 @@
+*
+{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container
+{
+    width: 100vh;
+    background-color: white;
+    padding: 12px;
+}
+
+.figure
+{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    width: 600px;
+}
+
+.fst
+{
+    position: absolute;
+    left: 790px;
+    top: 250px;
+    width: 70px;
+}
+
+.snd
+{
+    position: absolute;
+    width: 70px;
+    left: 845px;
+    top: 160px;
+}
+
+.trd
+{
+    position: absolute;
+    width: 70px;
+    top: 90px;
+    left: 980px;
+}
+
+.fth
+{
+    position: absolute;
+    width: 70px;
+    top: 150px;
+    left: 1120px;
+}
+
+.fivth
+{
+    position: absolute;
+    width: 70px;
+    top: 250px;
+    left: 1150px ;
+}

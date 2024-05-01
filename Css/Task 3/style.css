@@ -1,0 +1,559 @@
+/* For primary button  */
+.btn-primary
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-primary:hover
+{
+    background-color: #085fbc;
+}
+
+/* For secondary button */
+
+.btn-secondary
+{
+    background-color: #6C757D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover
+{
+    background-color: #5f666d;
+}
+
+
+/* For Success button */
+.btn-success{
+
+    background-color: #28A745;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn-success:hover
+{
+    background-color:#1e7b34 ;
+}
+
+/* For danger button */
+
+.btn-danger
+{
+    background-color: #DC3545;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-danger:hover
+{
+    background-color: #c32232;
+}
+
+/* For warning button */
+
+.btn-warning
+{
+    background-color: #FFC107;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-warning:hover
+{
+    background-color: #cc9900;
+}
+
+/* For info button */
+
+.btn-info
+{
+    background-color: #17A2B8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-info:hover
+{
+    background-color:  #148c9f;
+}
+
+
+/* For Light button */
+
+.btn-light
+{
+    background-color: #F8F9FA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-light:hover
+{
+    background-color:#d3d9de;
+}
+
+/* For Dark button */
+
+.btn-dark
+{
+    background-color: #343A40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-dark:hover
+{
+    background-color:#171a1c;
+}
+
+/* For Link button */
+
+.btn-link
+{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #3998FF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-link:hover
+{
+    text-decoration: underline;
+}
+
+/* For 2nd stages button-link  */
+.btn-link2
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 12px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-link2:hover
+{
+    background-color: #085fbc;
+}
+
+/* For 2nd stages button-button  */
+.btn-button
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-button:hover
+{
+    background-color: #085fbc;
+}
+
+/* For 2nd stages button-Input */
+.btn-input
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-input:hover
+{
+    background-color: #085fbc;
+}
+
+/* For 2nd stages button-Submit */
+.btn-submit
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-submit:hover
+{
+    background-color: #085fbc;
+}
+
+/* For 2nd stages button-Reset */
+.btn-reset
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-reset:hover
+{
+    background-color: #085fbc;
+}
+
+/* Outlined version */
+
+/* For out-primary button  */
+.btn-oprimary
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    text-decoration: none;
+    color:  #007BFF;
+    border-radius: 5px;
+    border-color: #007BFF;
+    transition: all 0.3s;
+     
+}
+
+.btn-oprimary:hover
+{
+    background-color: #085fbc;
+    color: white;
+}
+
+/* For out-secondary button */
+
+.btn-osecondary
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #6C757D;
+    border-radius: 5px;
+    border-color: #6C757D;
+    transition: all 0.3s;
+}
+
+.btn-osecondary:hover
+{
+    background-color: #5f666d;
+    color: white;
+}
+
+
+/* For out-Success button */
+.btn-osuccess{
+
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #28A745;
+    border-radius: 5px;
+    border-color: #28A745;
+    transition: all 0.3s;
+}
+
+.btn-osuccess:hover
+{
+    background-color:#1e7b34 ;
+    color: white;
+}
+
+/* For out-danger button */
+
+.btn-odanger
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #DC3545;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #DC3545;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-odanger:hover
+{
+    background-color: #c32232;
+    color: white;
+
+}
+
+/* For out-warning button */
+
+.btn-owarning
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #FFC107;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #FFC107;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-owarning:hover
+{
+    background-color: #cc9900;
+    color: black;
+
+}
+
+/* For out-info button */
+
+.btn-oinfo
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #17A2B8;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #17A2B8;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-oinfo:hover
+{
+    background-color:  #148c9f;
+    color: white;
+
+}
+
+
+/* For out-Light button */
+
+.btn-olight
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-olight:hover
+{
+    background-color:#d3d9de;
+    color: black;
+}
+
+/* For out-Dark button */
+
+.btn-odark
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    color: #343A40;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #343A40;
+    transition: all 0.3s;
+
+
+
+}
+
+.btn-odark:hover
+{
+    background-color:#171a1c;
+    color: white;
+
+}
+
+/* For Large button  */
+.btn-large-blue
+{
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 16px 28px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-large-blue:hover
+{
+    background-color: #085fbc;
+}
+
+/* For Large button  */
+.btn-large-grey
+{
+    background-color: #6C757D;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 16px 28px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.btn-large-grey:hover
+{
+    background-color: #5f666d;
+}
+
+.block-blue
+{
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 16px 28px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.block-blue:hover
+{
+    background-color: #085fbc;
+}
+
+
+.block-grey
+{
+    display: block;
+    text-align: center;
+    background-color: #6C757D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 16px 28px;
+    text-decoration: none;
+    color:  #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+     
+}
+
+.block-grey:hover
+{
+    background-color: #5f666d;
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Li Alinur Bahubrihi Unicode';
+    src: url(../Fonts/LiAlinurBahubrihiUnicode.woff) format('woff'),
+    url(../Fonts/LiAlinurBahubrihiUnicode.woff2) format('woff2');
+}
+
+
+
+.css-prac
+{
+    color: darkgreen;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Li Alinur Bahubrihi Unicode';
+
+}
+
+.test-p
+{
+    color:brown;
+    text-align: justify;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.test-p2
+{
+    color:brown;
+    text-align: justify;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Li Alinur Bahubrihi Unicode';
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    flex: 1;
+
+}
+
+.logo
+{
+    padding: 12px;
+}
+.logo-img
+{
+    background-color: transparent;
+    border: 5px solid tomato;
+    border-radius: 50%;
+    flex-basis: 200px;
+    width: 150px;
+}
+
+.logo-img:hover
+{   
+    width: 200px;
+    border: 5px solid brown;
+}
+
+
+.title
+{
+    display: inline-block;
+    color: brown;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+
+
+}
+.title:hover
+{
+    color: green;
+    text-decoration: underline;
+}
+
+.container-text
+{
+    padding-right: 200px;
+
+}

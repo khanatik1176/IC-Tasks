@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Li Alinur Bahubrihi Unicode';
+    src: url('LiAlinurBahubrihiUnicode.woff2') format('woff2'),
+        url('LiAlinurBahubrihiUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculation</title>
+</head>
+<body>
+    <script>
+
+        let Weight = prompt("Please Provide your Weight in Kilogram (kg)! ");
+        let Height = prompt("Please Provide your Height in meter (m) ! ");
+
+
+        if(Weight > 0 && Height > 0)
+        {
+            let BMI = Weight/Height;
+            
+
+            alert('BMI is'+ BMI.toFixed(2));
+        }
+
+        else
+        {
+            alert('Invalid!');
+        }
+
+
+
+    </script>
+</body>
+</html>
