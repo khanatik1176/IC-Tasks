@@ -10,16 +10,23 @@ function App() {
   const [dynamicCounter, setDynamicCounter] = useState(0);
 
 
+
+
   const incrementCounter = () =>
     {
+      if(dynamicCounter>=0){
       setDynamicCounter(dynamicCounter+1);
+      }
     }
 
     const decreaseCounter = () =>
       {
-        setDynamicCounter(dynamicCounter-1);
-      }
+        if(dynamicCounter>0){
 
+        setDynamicCounter(dynamicCounter-1);
+        
+        }
+      }
 
   return (
     <>
