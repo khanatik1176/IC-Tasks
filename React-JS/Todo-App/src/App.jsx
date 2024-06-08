@@ -1,81 +1,105 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import BioData from './Components/BioData'
+import { useState } from "react";
+ import "./App.css";
 
-const bioInfo = [
+ function App()
  {
-    id: Date.now() + "",
-    username: "Khan Atik Faisal",
-    age : 24,
-    email: "khanatik1176@gmail.com",
-    skills: ["HTML", "CSS", "JS","React","NodeJS","NestJS","NextJS"],
-    interests : ["Gaming","Driving","Coding","Watching Movies"],
-    socialMedia : [
-      {
-        socialName : "Facebook",
-        socialLink : "https://www.facebook.com/khanatik1176"
-      },
-      {
-        socialName : "Instagram",
-        socialLink : "https://www.instagram.com/khanatik1176"
-      },
-      {
-        socialName : "X",
-        socialLink : "https://www.X.com/khanatik1176"
-      
-      }
-    ],
-  },
-  {
-    id: Date.now()+"",
-    username: "Arham Khan",
-    age : 24,
-    email: "Asda176@gmail.com",
-    skills: ["HTML", "CSS", "JS","React","NodeJS","NestJS","NextJS"],
-    interests : ["Gaming","Driving","Coding","Watching Movies"],
-    socialMedia : [
-      {
-        socialName : "Facebook",
-        socialLink : "https://www.facebook.com/khanatik1176"
-      },
-      {
-        socialName : "Instagram",
-        socialLink : "https://www.instagram.com/khanatik1176"
-      },
-      {
-        socialName : "X",
-        socialLink : "https://www.X.com/khanatik1176"
-      
-      }
-    ],
-  },
-]
 
+  const [noteTitle, setNoteTitle] = useState("");
+  const [Notes, setNotes] = useState([]);
+  const [editMode, setEditMode] = useState(false);
+  const [editableNote, setEditableNote] = useState(null);
 
-function App() {
-  return (
-    <>
-     <div className="App">
-      {
-      bioInfo.map((bio) => (
+  const HandleTitleChange = (e) =>
+    {
+      let value = e.target.value;
 
-        <BioData
-        key={bio.id}
-        username={bio.username}
-        age={bio.age}
-        email={bio.email}
-        skills={bio.skills}
-        interests={bio.interests}
-        socialMedia={bio.socialMedia}
-        />
-
-      ))
+      setNoteTitle(value);
     }
-     </div>
-    </>
-  );
-}
 
-export default App
+    const createHandler = () => 
+      {
+        const newNote = 
+        {
+          id:Date.now() + "",
+          title:noteTitle
+        };
+
+        setNotes([...Notes, newNote]);
+
+        setNoteTitle("");
+
+      };
+
+      const editHandler = (note) =>
+        {
+          setEditMode(true);
+          setNoteTitle(note.title);
+          setEditableNote(note);
+        };
+
+      const updateHandler = () =>
+        {
+          const updatedNoteList = Notes.map((note) =>
+            {
+              if(note.id === editableNote.id)
+                {
+                  return {...note, title:noteTitle};
+                }
+
+                return note;
+            });
+
+            setNotes(updatedNoteList);
+            setEditMode(false);
+            setEditableNote(null);
+            setNoteTitle("");
+        };
+
+    const HandleSubmit = (e) =>
+      {
+        e.preventDefault();
+
+        if(noteTitle.trim() === "")
+        {
+          return alert ("Please enter a valid note title");
+        }
+
+        editMode? updateHandler() : createHandler();
+
+      };
+
+      const RemoveHandler = (noteId) =>
+        {
+          const updatedNotes = Notes.filter((note) => note.id !== noteId);
+
+          setNotes(updatedNotes);
+
+        }
+
+  return (
+    
+    <div className="form-area">
+      <h2 className="Title">TO DO NOTES </h2>
+      <form onSubmit={HandleSubmit}>
+        <input type="text" value={noteTitle} onChange={HandleTitleChange} placeholder="Title Name"/>
+        <button className="add-btn" onClick={HandleSubmit}>{editMode ? "Update Note" : "Add Note"}</button>
+      </form>
+
+      <ul>
+        {Notes.map((note)=>(
+          <li className="noteItem" key={note.id}>
+            <span>{note.title}</span>
+            <button className="edit-btn" onClick={ () => editHandler(note)} >Edit</button>
+            <button className="remove-btn" onClick={() => RemoveHandler(note.id)}>Delete</button>
+
+          </li>
+        )
+        )}
+      </ul>
+
+    </div>
+
+  );
+ }
+
+ export default App;

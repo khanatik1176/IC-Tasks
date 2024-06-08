@@ -59,10 +59,10 @@ function App() {
     <>
      <div className="App">
       {
-      bioInfo.map((bio) => (
+      bioInfo.map((bio,index) => (
 
         <BioData
-        key={bio.id}
+        key={index}
         username={bio.username}
         age={bio.age}
         email={bio.email}
