@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body
+{
+    background-color: gray;    
+}
+
+.App {
+    text-align: center;
+}
+
+.student-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  margin-bottom: 85px;
+  margin-top: 25px;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-area input
+{
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.form-area button
+{
+    
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-area button:hover
+{
+    background-color: #45a049;
+}
+
+.list {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.list-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+.Title
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.student-section
+{
+    
+}
+
+.list
+{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn
+{
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit-btn:hover
+{
+    background-color: rgb(5, 5, 172);
+}
+
+.remove-btn
+{
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.remove-btn:hover
+{
+    background-color: rgb(172, 5, 5);
+    
+}
+
+.present-btn
+{
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(155, 115, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.present-btn:hover
+{
+    background-color: rgb(204, 133, 0);
+    color:black;
+}
+
+
+.absent-btn
+{
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(25, 164, 199);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.absent-btn:hover
+{
+    background-color: rgb(17, 105, 128);
+    color:white;
+}
+
+.accident-btn
+{
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(111, 218, 186);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.accident-btn:hover
+{
+    background-color: rgb(54, 151, 122);
+    color:white;
+}
+
+.input-text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+        
+}
+
+.heading-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: darkgray;
+
+}
+
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+    height: 100px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Title-head
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
