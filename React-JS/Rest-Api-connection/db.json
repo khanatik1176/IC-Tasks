@@ -1,0 +1,26 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Note 1"
+    },
+    {
+      "id": "2",
+      "title": "Note 2"
+    },
+    {
+      "id": "1728223567664",
+      "title": "Note 3"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Robin"
+    },
+    {
+      "id": "2",
+      "name": "Rana"
+    }
+  ]
+}
